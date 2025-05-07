@@ -1,0 +1,235 @@
+
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1714636608872-048fc9231892?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  color: #3e342f;
+}
+
+h2 {
+  text-align: center;
+  color: #3e342f;
+  font-size: 38px;
+
+}
+
+.card {
+    display: flex;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px;
+    font-family: sans-serif;
+    background-color: rgb(253, 245, 235);
+  }
+
+  .card img {
+    width: 150px;
+    object-fit: cover;
+  }
+
+  .card-content {
+    padding: 20px;
+  }
+
+  .card-content h3 {
+    margin-top: 0;
+  }
+  .container {
+    grid-template-columns: repeat(2, 1fr); 
+    max-width: 1000px;
+    margin-left: 10px;
+    gap: 2px; 
+    display: flex;
+flex-wrap: wrap;
+gap: 2px;
+
+  }
+
+  a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    color: #0D0D0D;
+    background-color: #d2b48c;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    text-decoration: none;
+  
+    position: static; 
+    bottom: auto;
+    left: auto;
+  
+  
+  }
+  .c{
+    text-align: center;
+  }
+  a:hover {
+    background-color: rgb(253, 193, 161);
+  }
+  form {
+    background-color: #fdf6e3; 
+    width: 30%;
+    margin-left: auto;        
+    margin-right: 30px;        
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-top: -470px;
+  }
+  
+  h2 {
+    color: #5e503f;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    color: #5e503f;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #d2b48c;
+    background-color: #fffaf0;
+    color: #333;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: #d2b48c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c2a47c;
+  }
+  @media only screen and (max-width: 600px) {
+  
+    body {
+      padding: 0 10px;
+    }
+  
+  
+    h2 {
+      font-size: 32px;
+      margin-top: 30px;
+    }
+  
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      padding: 0 10px;
+    }
+  
+    .card {
+      width: 100%;
+      max-width: 100%;
+      margin: 0;
+      flex-direction: column;
+    }
+  
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .card-content {
+      padding: 15px;
+    }
+  
+    .card-content h3 {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+  
+    form {
+      width: 90%;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.95);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+  
+    form h1 {
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: 600;
+    }
+  
+    input, select {
+      width: 80%;  
+      padding: 8px;  
+      margin-top: 6px;
+      border: 1px solid #d2b48c;
+      border-radius: 6px;
+      background-color: #fffaf0;
+      font-size: 14px;
+    }
+  
+    button {
+      margin-top: 20px;
+      padding: 12px;
+      width: 100%;
+      background-color: #d2b48c;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 15px;
+    }
+  
+    button:hover {
+      background-color: #c2a47c;
+    }
+    .c {
+      text-align: center;
+      margin-top: 30px;
+    }
+  
+    a {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 10px;
+      color: white;
+      background-color: #a67b5b;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 500;
+      transition: background-color 0.3s ease;
+  
+      position: static !important;
+      left: auto !important;
+    }
+  
+    a:hover {
+      background-color: #825c3a;
+    }
+  }
